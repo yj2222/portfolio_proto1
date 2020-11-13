@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg{
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/image_5.jpg);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  /* background-color: white; */
+  border-radius: 100px;
+  box-shadow: 5px 0px 10px 0px red inset, 
+              0px 5px 10px 0px blue inset, 
+              -5px 0px 10px 0px yellowgreen inset, 
+              0px -5px 10px 0px yellow inset,
+              0px 0px 30px 20px rgba(0, 255, 255, 0.5) inset;
+  transition: .3s;
+}
+
+/*  */
+.box1{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  animation: shabon 3s linear  infinite;
+}
+@keyframes shabon{
+  0%{
+    transform: scaleY(1);
+  }
+  10%{
+    transform: scaleY(1.1);
+  }
+  20%{
+    transform: scaleY(1);
+  }
+  30%{
+    transform: scaleY(1.1) skew(5deg);
+  }
+  100%{
+    transform: scaleY(1) skew(-5deg);
+    bottom: 100%;
+    left: 60%;
+  }
+}
+
+/*  */
+.box2{
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  animation: shabon2 4s linear  infinite;
+}
+@keyframes shabon2{
+  0%{
+    transform: scaleY(1);
+  }
+  10%{
+    transform: scaleY(1.1);
+  }
+  20%{
+    transform: scaleY(1);
+  }
+  30%{
+    transform: scaleY(1.1) skew(5deg);
+  }
+  100%{
+    transform: scaleY(1) skew(-5deg);
+    bottom: 100%;
+    left: 20%;
+  }
+}
+
+/*  */
+.box3{
+  position: absolute;
+  bottom: 0;
+  left: 70%;
+  animation: shabon3 5s linear  infinite;
+}
+@keyframes shabon3{
+  0%{
+    transform: scaleY(1);
+  }
+  10%{
+    transform: scaleY(1.1);
+  }
+  20%{
+    transform: scaleY(1);
+  }
+  30%{
+    transform: scaleY(1.1) skew(5deg);
+  }
+  100%{
+    transform: scaleY(1) skew(-5deg);
+    bottom: 100%;
+    left: 50%;
+  }
+}
+
+/*  */
+.box4{
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  animation: shabon4 6s linear  infinite;
+}
+@keyframes shabon4{
+  0%{
+    transform: scaleY(1);
+  }
+  10%{
+    transform: scaleY(1.1);
+  }
+  20%{
+    transform: scaleY(1);
+  }
+  30%{
+    transform: scaleY(1.1) skew(5deg);
+  }
+  100%{
+    transform: scaleY(1) skew(-5deg);
+    bottom: 100%;
+    left: 20%;
+  }
+}
+
+/*  */
+.box5{
+  position: absolute;
+  bottom: 0;
+  left: 90%;
+  animation: shabon5 7s linear  infinite;
+}
+@keyframes shabon5{
+  0%{
+    transform: scaleY(1);
+  }
+  10%{
+    transform: scaleY(1.1);
+  }
+  20%{
+    transform: scaleY(1);
+  }
+  30%{
+    transform: scaleY(1.1) skew(5deg);
+  }
+  100%{
+    transform: scaleY(1) skew(-5deg);
+    bottom: 100%;
+    left: 80%;
+  }
+}

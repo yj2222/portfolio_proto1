@@ -47,13 +47,22 @@ header{
   }
 }
 
-.logo h1{
-  line-height: 2rem;
+.logo__text{
+  font-family: 'Gravitas One', cursive;
+  width: 100%;
+  line-height: 1.5rem;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+}
+
+.logo__text h1{
+  font-size: 2rem;
+}
+
+.logo__text p{
+  font-size: 1rem;
 }
 
 .leftEar{

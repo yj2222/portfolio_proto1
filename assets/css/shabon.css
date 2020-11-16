@@ -11,6 +11,18 @@
   position: relative;
 }
 
+.mainHeader{
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Cabin Sketch', cursive;
+  background-color: white;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
 .box{
   width: 100px;
   height: 100px;
